@@ -1,0 +1,20 @@
+{
+  "name": "cryptron",
+  "version": "1.0.0",
+  "description": "Crypto auto investor",
+  "main": "index.js",
+  "repository": "github.com/jrdnrc/cryptron",
+  "author": "Jordan Crocker <jordan@jcrocker.uk>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "coinbase-pro-node": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "node-notifier": "^9.0.1",
+    "yargs": "^16.2.0"
+  },
+  "scripts": {
+    "order": "node order.js",
+    "listen": "node socket.js"
+  }
+}
